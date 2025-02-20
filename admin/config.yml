@@ -1,0 +1,13 @@
+backend:
+  name: github
+  repo: sanjana-pratap-singh/sanjana-pratap-singh.github.io
+  branch: main
+  use_graphql: true
+  base_url: https://sveltia-cms-auth.developer-ucudn.workers.dev
+media_folder: 'assets/uploads'
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    fields:
+      - { name: Title }
